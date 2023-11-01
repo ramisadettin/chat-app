@@ -109,5 +109,5 @@ io.on('connection', (socket) => {
 
 // here we are using server.listen instead of app.listen because we are working with web socket app
 server.listen(PORT, () => {
-  console.log('server is up and running on port 3000')
+  console.log(`server is up and running on port ${PORT}`)
 })
