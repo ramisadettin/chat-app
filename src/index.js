@@ -19,7 +19,7 @@ const io = socketIo(server)
 // using the public path
 app.use(express.static(publicDirectoryPath))
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3001
 
 // require the bad-words module
 const Filter = require('bad-words')
